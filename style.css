@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+
+/* CSS Reset */
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: square;
+}
+
+/* Main Container */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Left Side */
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+    width: 30%;
+    background: pink;
+    
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.picture img{
+    width: 50%;
+    border-radius: 100%;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.192);
+}
+
+
+.contactMe{
+    width: 90%;
+    padding: 2px;
+    margin: 0 auto;
+}
+.contactHeading{
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links div{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.links a{
+    padding: 2px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+.links p{
+    font-size: 14px;
+}
+.far .fab{
+    margin-right: 5px;
+}
+    
+
+.skill{
+    
+    padding: 3px;
+    margin: 5px;
+}
+.skill div{
+    margin: 2px;
+    padding: 2px;
+}
+.skill p{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+/* Right Side */
+.rightSide{
+    width: 60%;
+    background: powderblue;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+.section{
+    margin: 10px auto;
+    padding: 5px;
+    line-height: 20px;
+}
+.section h5{
+    margin-bottom: 4px;
+}
+.section h6{
+    text-decoration: underline;
+}
+.exp2{
+    margin-top: 10px;
+}
